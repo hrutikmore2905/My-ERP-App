@@ -1,0 +1,225 @@
+.orders-container {
+    margin-top: 2%;
+    margin-left: 11%;
+}
+  
+.orders-container h1 {
+    margin-top: 35px;
+  }
+  
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+  
+.orders-table th,
+.orders-table td {
+    padding: 10px;
+    border: none; /* Remove borders */
+    text-align: left;
+}
+  
+.orders-table th {
+    background-color: #f2f2f2;
+}
+  
+.orders-table td {
+    text-align: center;
+}
+  
+.orders-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+  
+.orders-actions button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+  
+.orders-actions button:hover {
+    background-color: #0056b3;
+}
+  
+/* Tablets */
+@media screen and (max-width: 1200px) {
+    .orders-table th,
+    .orders-table td {
+        padding: 5px;
+        font-size: 12px;
+    }
+  
+    .orders-table {
+      font-size: 12px;
+    }
+    .orders-container {
+      width: 100%;
+      margin-left: 8pc;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    .orders-container {
+      width: 67%;
+      padding: 0;
+    }
+     .orders-container h1{
+      font-size: 1.5rem;
+      margin-left: 105px;
+     }
+    .orders-table {
+      width: 100%;
+    }
+  
+    .orders-table th,
+    .orders-table td {
+      padding: 5px;
+      font-size: 12px;
+    }
+  
+    .orders-table {
+      font-size: 12px;
+      width: 91%;
+    }
+  
+    .orders-actions {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .orders-actions button {
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+    form{
+      width: 75%;
+      margin-left: 14%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    table{
+      left: -5%;
+      position: relative;
+    }
+    .orders-container{
+      width: 95%;
+      margin-left: 18px;
+      padding: 0;
+    }
+
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+  
+.pagination button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+.pagination button:hover {
+    background-color: #0056b3;
+}
+  
+.pagination .active {
+    background-color: #0056b3;
+ }
+@media screen and (max-width: 414px) {
+    .orders-container {
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+    }
+  
+    .orders-container h1 {
+      font-size: 1.2rem;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .orders-table {
+      width: 100%;
+    }
+  
+    .orders-table th,
+    .orders-table td {
+      padding: 5px;
+      font-size: 10px;
+      text-align: center;
+    }
+  
+    .orders-actions {
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+    }
+  
+    .orders-actions button {
+      padding: 5px 10px;
+      font-size: 10px;
+    }
+  
+    form {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+@media screen and (max-width: 430px) {
+    .orders-container {
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+    }
+  
+    .orders-container h1 {
+      font-size: 1.2rem;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .orders-table {
+      width: 100%;
+    }
+  
+    .orders-table th,
+    .orders-table td {
+      padding: 5px;
+      font-size: 10px;
+      text-align: center;
+    }
+  
+    .orders-actions {
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+    }
+  
+    .orders-actions button {
+      padding: 5px 10px;
+      font-size: 10px;
+    }
+  
+    form {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
