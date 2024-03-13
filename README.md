@@ -10,15 +10,17 @@ Dashboard: Provides an overview of key metrics and features of the ERP system. P
 
 Technology Stack React: Front-end library for building user interfaces. React Router: Library for managing navigation within a React application. Material-UI: React components library for building consistent and responsive user interfaces. ApexCharts: Library for creating interactive charts and graphs.
 
-Requirements: npm install react-router-dom --force
+Requirements: 
+
+npm install react-router-dom --force
 
 npm install @mui/material@latest --force
 
-still if you got up with error use npm cache clean --force
+still got up with error use npm cache clean --force
 
 check all the dependenciew and install the required packages and then run again.
 
-How to Run: Clone the repository: git clone
+How to Run: Clone the repository: git clone  https://github.com/hrutikmore2905/My-ERP-App
 
 Navigate to the project directory: cd erp-system
 
@@ -28,4 +30,4 @@ Usage: npm start
 
 Open http://localhost:3000 in your browser to view the application.
 
-Credits Icons from Unicons Charts from ApexCharts
+
