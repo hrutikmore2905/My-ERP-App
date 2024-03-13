@@ -22,7 +22,7 @@ check all the dependenciew and install the required packages and then run again.
 
 How to Run: Clone the repository: git clone  https://github.com/hrutikmore2905/My-ERP-App
 
-Navigate to the project directory: cd erp-system
+Navigate to the project directory: cd My-ERP-App
 
 Install dependencies: npm install
 
